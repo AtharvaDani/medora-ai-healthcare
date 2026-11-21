@@ -30,20 +30,15 @@ Any OpenAI-compatible API works - just change `AI_BASE_URL`, `AI_MODEL`, `AI_API
 - Google Gemini: `https://generativelanguage.googleapis.com/v1beta/openai` , model `gemini-2.0-flash`
 - OpenRouter: `https://openrouter.ai/api/v1` , model `meta-llama/llama-3.3-70b-instruct:free`
 
-#ScreenShot
-<img src="docs/images/symptom-checker.png" width="30%" alt="Symptom Checker">
-<img src="docs/images/home-screen1.png" width="30%" alt="Home Screen1">
-<img src="docs/images/home-screen2.png" width="30%" alt="Home Screen2">
-<img src="docs/images/patient-profile.png" width="30%" alt="Patient Profile">
-<img src="docs/images/report-explainer1.png" width="30%" alt="Report Explainer1">
-<img src="docs/images/report-explainer2.png" width="30%" alt="Report Explainer2">
-<img src="docs/images/book-slot.png" width="30%" alt="Book Slot">
-<img src="docs/images/home-screen2.png" width="30%" alt="Home Screen2">
-<img src="docs/images/doctor-info.png" width="30%" alt="Doctor info">
-<img src="docs/images/ask-ai.png" width="30%" alt="Ask Ai">
-<img src="docs/images/book-appointment.png" width="30%" alt="Book Appointment">
+## Screenshots
 
-
+| | |
+|:---:|:---:|
+| <img src="docs/images/home-screen1.png" alt="Home"><br><sub><b>Home</b></sub> | <img src="docs/images/home-screen2.png" alt="Home services"><br><sub><b>Home - Services</b></sub> |
+| <img src="docs/images/symptom-checker.png" alt="Symptom Checker"><br><sub><b>Symptom Checker</b></sub> | <img src="docs/images/ask-ai.png" alt="Ask AI"><br><sub><b>AI Health Assistant</b></sub> |
+| <img src="docs/images/report-explainer1.png" alt="Report Explainer"><br><sub><b>Report Explainer</b></sub> | <img src="docs/images/report-explainer2.png" alt="Report Explainer lifestyle tips"><br><sub><b>Report Explainer - Tips</b></sub> |
+| <img src="docs/images/doctor-info.png" alt="Doctor profile"><br><sub><b>Doctor Profile</b></sub> | <img src="docs/images/book-slot.png" alt="Available slots"><br><sub><b>Available Slots</b></sub> |
+| <img src="docs/images/book-appointment.png" alt="Book appointment"><br><sub><b>Book Appointment</b></sub> | <img src="docs/images/patient-profile.png" alt="Patient profile"><br><sub><b>Patient Profile</b></sub> |
 
 
 ## New features
