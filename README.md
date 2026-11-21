@@ -44,6 +44,8 @@ Any OpenAI-compatible API works - just change `AI_BASE_URL`, `AI_MODEL`, `AI_API
 <img src="docs/images/book-appointment.png" width="45%" alt="Book Appointment">
 
 
+
+
 ## New features
 
 | Feature | Who | Where |
