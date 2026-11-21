@@ -1,0 +1,76 @@
+.sc-search-doctor {
+
+  /* Utility and reset */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .object-fit-cover {
+    object-fit: cover;
+  }
+  .text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Accent color palette */
+  .accent-color {
+    color: #2563eb; /* blue */
+  }
+  .accent-color-dark {
+    color: #1e40af; /* darker blue */
+  }
+
+  /* Gradient text for headline */
+  .headline-gradient {
+    background: linear-gradient(90deg, #2563eb, #9333ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Body text color */
+  .body-text {
+    color: #6b7280;
+  }
+
+  /* Subtle shadow and rounded corners for card */
+  .doctor-card {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .doctor-card:hover,
+  .doctor-card:focus-visible {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.3); /* Blue tinted shadow */
+    outline: none;
+  }
+
+  /* Button with blue-purple gradient */
+  .btn-gradient {
+    background: linear-gradient(90deg, #2563eb, #9333ea);
+    color: white;
+  }
+
+  .btn-gradient:hover,
+  .btn-gradient:focus-visible {
+    background: linear-gradient(90deg, #1e40af, #7e22ce);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.5);
+    color: white;
+  }
+
+  /* Input icon positioning */
+  .input-icon {
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+
+  /* Focus styles for accessibility */
+  input:focus,
+  button:focus,
+  .doctor-card:focus-visible {
+    outline-offset: 3px;
+    outline-color: #9333ea; /* purple */
+    outline-style: solid;
+  }
+
+}

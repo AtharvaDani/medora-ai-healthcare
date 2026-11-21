@@ -1,0 +1,10 @@
+FROM maven:3.9-eclipse-temurin-17 AS build
+WORKDIR /build
+COPY . .
+RUN mvn -B -q -pl AI-Service -am -DskipTests package
+
+FROM eclipse-temurin:17-jre
+WORKDIR /app
+COPY --from=build /build/AI-Service/target/*.jar app.jar
+EXPOSE 8081
+ENTRYPOINT ["java","-XX:MaxRAMPercentage=75","-XX:+UseSerialGC","-jar","app.jar"]

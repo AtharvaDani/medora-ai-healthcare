@@ -1,0 +1,139 @@
+// Shared styles for: Report Explainer, Symptom Checker, Video Consult, Analytics
+.sc-feature {
+  max-width: 980px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+
+  .feature-hero {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    h2 {
+      font-weight: 800;
+      background: var(--medora-gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 0.3rem;
+    }
+    p { color: #64748b; margin: 0; }
+  }
+
+  .panel {
+    background: #fff;
+    border-radius: 1.1rem;
+    padding: 1.4rem;
+    box-shadow: 0 10px 35px rgba(13, 148, 136, 0.13);
+    margin-bottom: 1.2rem;
+    h5 { font-weight: 700; color: #0f766e; margin-bottom: 0.8rem; }
+  }
+
+  .drop {
+    border: 2px dashed #99d5cf;
+    border-radius: 1rem;
+    background: #f0fafa;
+    padding: 2rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    &:hover, &.over { background: #e6f7f6; border-color: var(--medora-primary); }
+    i { font-size: 2.2rem; color: var(--medora-primary); }
+    .hint { color: #64748b; font-size: 0.9rem; }
+  }
+
+  .btn-medora {
+    background: var(--medora-gradient);
+    color: #fff;
+    border: 0;
+    border-radius: 999px;
+    padding: 0.65rem 1.6rem;
+    font-weight: 600;
+    &:disabled { opacity: 0.6; }
+    &:hover:not(:disabled) { filter: brightness(1.06); color: #fff; }
+  }
+
+  .alert-soft {
+    border-radius: 0.8rem;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    &.error { background: #fdecec; color: #b42318; }
+    &.info { background: #e6f7f6; color: #0f766e; }
+  }
+
+  .disclaimer { color: #64748b; font-size: 0.85rem; margin-top: 0.5rem; }
+
+  .pill {
+    display: inline-block;
+    padding: 0.18rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    &.NORMAL, &.SELF_CARE { background: #dcfce7; color: #166534; }
+    &.HIGH, &.LOW, &.ABNORMAL, &.ATTENTION, &.URGENT { background: #fef3c7; color: #92400e; }
+    &.EMERGENCY { background: #fee2e2; color: #991b1b; }
+    &.ROUTINE { background: #dbeafe; color: #1e40af; }
+  }
+
+  .finding {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr auto;
+    gap: 0.4rem 1rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #e6eeee;
+    &:last-child { border-bottom: 0; }
+    .name { font-weight: 600; }
+    .val { color: #334155; }
+    .why { grid-column: 1 / -1; color: #64748b; font-size: 0.92rem; }
+    .range { color: #94a3b8; font-size: 0.85rem; }
+    &.bad .name { color: #b45309; }
+  }
+
+  ul.clean { padding-left: 1.2rem; margin: 0; li { margin-bottom: 0.3rem; } }
+
+  .emergency-banner {
+    background: #fee2e2;
+    border: 2px solid #dc2626;
+    color: #7f1d1d;
+    border-radius: 1rem;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1.2rem;
+    h4 { color: #b91c1c; font-weight: 800; }
+    .call { font-size: 1.4rem; font-weight: 800; }
+  }
+
+  textarea.form-control { border: 2px solid #cfe9e7; border-radius: 0.8rem; &:focus { border-color: var(--medora-primary); box-shadow: 0 0 0 3px rgba(13,148,136,.2); } }
+
+  // ---- analytics
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+  .stat {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 1.1rem;
+    box-shadow: 0 6px 22px rgba(13, 148, 136, 0.12);
+    .num { font-size: 1.9rem; font-weight: 800; color: #0f766e; line-height: 1.1; }
+    .lbl { color: #64748b; font-size: 0.85rem; }
+  }
+  .chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1.2rem;
+    @media (max-width: 480px) { grid-template-columns: 1fr; }
+  }
+  .chart-box { height: 260px; }
+  table.mini { width: 100%; font-size: 0.92rem; th { color: #64748b; font-weight: 600; } td, th { padding: 0.35rem 0.4rem; } tr + tr td { border-top: 1px solid #eef3f3; } }
+
+  // ---- video
+  .video-frame {
+    width: 100%;
+    height: 70vh;
+    min-height: 420px;
+    border: 0;
+    border-radius: 1rem;
+    background: #0b1f1e;
+  }
+}

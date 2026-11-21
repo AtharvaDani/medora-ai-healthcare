@@ -1,0 +1,165 @@
+.sc-login {
+  .brand-row {
+    display: flex; align-items: center; justify-content: center; gap: 0.7rem; margin-bottom: 1rem;
+    img { border-radius: 50%; }
+    .brand-name { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.8rem; color: #0f766e; }
+    .brand-name b { background: var(--medora-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  }
+
+
+  
+
+.login-page {
+  background: linear-gradient(160deg, #e6fffa 0%, #eef4ff 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #6b7280;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 480px;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+
+  .login-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    color: #111827;
+    margin-bottom: 0.75rem;
+    user-select: none;
+  }
+
+  .login-subtext {
+    font-size: 1.125rem; /* ~18px */
+    margin-bottom: 3.5rem;
+    color: #6b7280;
+    user-select: none;
+  }
+
+  .login-card {
+    background: #f9fafb;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.05);
+    padding: 2.5rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form-label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111827;
+  }
+
+  .form-input {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    border: 1.5px solid #d1d5db;
+    background: white;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+    color: #111827;
+  }
+
+  .form-input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(37 99 235 / 0.3);
+  }
+
+  .btn-primary {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: white;
+    background: var(--medora-gradient);
+    border: none;
+    padding: 1rem 0;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-primary:disabled,
+  .btn-primary[aria-disabled='true'] {
+    background: #9ca3af;
+    cursor: not-allowed;
+  }
+
+  .btn-primary:not(:disabled):hover,
+  .btn-primary:not(:disabled):focus {
+    background: var(--medora-primary-dark);
+    outline: none;
+  }
+
+  .signup-prompt {
+    font-size: 1rem;
+    color: #6b7280;
+    text-align: center;
+  }
+
+  .signup-link {
+    color: #111827;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 0.25rem;
+    transition: color 0.3s ease;
+  }
+
+  .signup-link:hover,
+  .signup-link:focus {
+    color: #2563eb;
+    outline: none;
+  }
+
+@media (max-width: 480px) {
+  .login-title {
+    font-size: 2rem;
+  }
+
+  .login-subtext {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .login-card {
+    padding: 1.5rem 1rem 2rem;
+    gap: 1.5rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+}

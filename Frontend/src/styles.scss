@@ -1,0 +1,24 @@
+// ---- Medora AI theme ----
+$primary: #0d9488;
+$secondary: #475569;
+$info: #2563eb;
+$body-bg: #f0fafa;
+$body-color: #1e293b;
+$font-family-sans-serif: 'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
+$headings-font-family: 'Poppins', 'Inter', sans-serif;
+$border-radius: 0.6rem;
+
+:root {
+  --medora-primary: #0d9488;
+  --medora-primary-dark: #0f766e;
+  --medora-accent: #2563eb;
+  --medora-gradient: linear-gradient(135deg, #0d9488 0%, #2563eb 100%);
+  --medora-soft: #f0fafa;
+}
+
+/* Bootstrap + icons */
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+html, body { height: 100%; }
+body { margin: 0; background: var(--medora-soft); }

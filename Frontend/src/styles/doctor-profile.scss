@@ -1,0 +1,70 @@
+.sc-doctor-profile {
+
+  .profile-card {
+    background: linear-gradient(135deg, #d6527a, #d11843);
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  .profile-card:hover {
+    transform: scale(1.02);
+  }
+  .profile-details h6 {
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+  .mod {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: #3469db;
+    transition: color 0.3s ease;
+  }
+  .mod:hover {
+    color: #0f766e;
+  }
+  .newuser h1 {
+    color: #2563eb;
+  }
+  .newuser p {
+    font-size: 1.2rem;
+  }
+
+      /* New User Section */
+    .new-user {
+      text-align: center;
+      padding: 6rem 1rem;
+      max-width: 600px;
+      margin-inline: auto;
+    }
+    .new-user h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #111827;
+      margin: 0 0 1rem 0;
+      user-select: text;
+    }
+    .new-user p {
+      font-size: 1.25rem;
+      color: #6b7280;
+      margin: 0 0 2rem 0;
+      user-select: text;
+    }
+    .btn-add-details {
+      background-color: #111827;
+      border: none;
+      color: white;
+      font-weight: 700;
+      font-size: 1.125rem;
+      padding: 1rem 2.5rem;
+      border-radius: 0.75rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+    .btn-add-details:hover,
+    .btn-add-details:focus {
+      background-color: #2563eb;
+      outline: none;
+    }
+}
