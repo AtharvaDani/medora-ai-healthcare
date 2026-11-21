@@ -30,6 +30,18 @@ Any OpenAI-compatible API works - just change `AI_BASE_URL`, `AI_MODEL`, `AI_API
 - Google Gemini: `https://generativelanguage.googleapis.com/v1beta/openai` , model `gemini-2.0-flash`
 - OpenRouter: `https://openrouter.ai/api/v1` , model `meta-llama/llama-3.3-70b-instruct:free`
 
+#ScreenShot
+<img src="docs/images/symptom-checker.png" width="45%" alt="Symptom Checker">
+<img src="docs/images/home-screen1.png" width="45%" alt="Home Screen1">
+<img src="docs/images/home-screen2.png" width="45%" alt="Home Screen2">
+<img src="docs/images/patient-profile.png" width="45%" alt="Patient Profile">
+<img src="docs/images/report-explainer1.png" width="45%" alt="Report Explainer1">
+<img src="docs/images/report-explainer2.png" width="45%" alt="Report Explainer2">
+<img src="docs/images/book-slot.png" width="45%" alt="Book Slot">
+<img src="docs/images/home-screen2.png" width="45%" alt="Home Screen2">
+<img src="docs/images/doctor-info.png" width="45%" alt="Doctor info">
+<img src="docs/images/ask-ai.png" width="45%" alt="Ask Ai">
+<img src="docs/images/book-appointment.png" width="45%" alt="Book Appointment">
 
 
 ## New features
